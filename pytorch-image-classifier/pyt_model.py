@@ -137,7 +137,7 @@ plt.ylabel('Average training loss')
 plt.title('PyTorch CNN Training Loss')
 plt.grid(True)
 plt.tight_layout()
-finish_plot('train_loss_curve.png')
+finish_plot('train_loss_curve_pyt.png')
 
 def view_result(image, probabilities, actual_label):
     probabilities = probabilities.detach().cpu().numpy().squeeze() 
@@ -170,7 +170,7 @@ with torch.no_grad():
     probabilities = torch.exp(output)
     
 view_result(sample_image, probabilities, sample_label)
-finish_plot('prediction.png')
+finish_plot('prediction_pyt.png')
 
 
 correct = 0
