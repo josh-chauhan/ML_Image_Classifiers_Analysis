@@ -1,7 +1,7 @@
 # CIFAR-10 Image Classification: PyTorch vs. TensorFlow/Keras
  
 ![Python](https://img.shields.io/badge/Python-3.13.9-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-[]-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-[2.14.1]-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-[2.21.0]-orange)
  
 Comparing and documenting various methods of modeling and running an image classifier, using a CNN
